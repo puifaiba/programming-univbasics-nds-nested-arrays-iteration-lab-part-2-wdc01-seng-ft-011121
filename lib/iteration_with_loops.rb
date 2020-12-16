@@ -10,9 +10,9 @@ def find_min_in_nested_arrays(src)
           if src[i][j] > min
              min = min += src[i][j]
           end
-        lowest_temp << min
         j += 1
         end
+    lowest_temp << min
     i += 1
     end
 lowest_temp
